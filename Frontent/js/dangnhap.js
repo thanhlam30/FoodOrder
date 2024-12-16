@@ -151,7 +151,7 @@ async function dangnhap(event) {
       "Content-Type": "application/json",
     },
     body: JSON.stringify({
-      username: document.getElementById("email").value,
+      username: document.getElementById("username").value,
       password: document.getElementById("matkhau").value,
     }),
   })
